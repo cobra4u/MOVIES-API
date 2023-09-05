@@ -10,7 +10,7 @@ form.addEventListener('submit', function(event) {
 });
 
 async function getMovieDetails() {
-    const url = `http://www.omdbapi.com/?apikey=8b02a7a2&t=${encodeURIComponent(input.value)}`;
+    const url = `http://www.omdbapi.com/?apikey=23841633&t=${encodeURIComponent(input.value)}`;
     const response = await fetch(url);
     const data = await response.json();
     displayMovieDetails(data);
